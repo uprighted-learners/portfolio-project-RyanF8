@@ -1,26 +1,21 @@
-import './App.css';
+import Sidenav from './components/Sidenav';
+import Main from './components/Main';
+import Work from './components/Work';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import About from './components/About';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <nav>
-        <ul>
-          <li>Link One</li>
-          <li>Link Two</li>
-          <li>Link Three</li>
-        </ul>
-      </nav>
-      <h1>Personal Portfolio</h1>
-      <p>Say something about yourself here!</p>
-      <figure>
-        <picture>
-          <souce srcset="https://www.fillmurray.com/g/300/400" />
-          <img src="https://www.fillmurray.com/g/300/400" />"
-        </picture>
-        <figcaption>
-          Source: <a href="https://www.fillmurray.com/">www.fillmurray.com/</a>
-        </figcaption>
-      </figure>
+    <div>
+      <Sidenav />
+      <Main />
+      <Work />
+      <About />
+      <Projects />
+      <Contact />
     </div>
   );
 }
