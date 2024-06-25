@@ -27,7 +27,7 @@ function Main() {
                 />
             </h2>
             <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                <a href='https://twitter.com/RyanF8' target='_blank' rel='noreferrer'>
+                <a href='https://x.com/wildFlounder8' target='_blank' rel='noreferrer'>
                 <FaTwitter className='cursor-pointer' size={20} />
                 </a>
                 <a href='https://www.linkedin.com/in/ryan-fish-15791517b/' target='_blank' rel='noreferrer'>
